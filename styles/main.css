@@ -1,0 +1,50 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  background:grey;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+}
+
+img{
+  max-width: 200px;
+}
+.article{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.article_title{
+  display: flex;
+  font-size: 18px;
+  margin-left: 50;
+
+}
+
+.article_title_two{
+  display: flex;
+  font-size: 18px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.article_description{
+  width: 400px;
+}
+
+.article_description_two{
+  width: 400px;
+}
+
+.foo{
+  background: rgba(255, 253, 253, 0.8);
+
+}
+
+@media screen and (max-width: 1100px){
+
+}
