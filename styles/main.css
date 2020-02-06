@@ -1,15 +1,21 @@
 *{
   font-family: 'Montserrat', sans-serif;
-  background:grey;
+
+}
+
+html{
+  overflow-x: hidden;
 }
 
 body{
   width: 100%;
   min-height: 100vh;
 }
-
-
-ul{
+/* header */
+header{
+  background:#f1f2f6;
+}
+.list{
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -20,10 +26,17 @@ ul{
   margin: 0 20px;
 
 }
+li a{
+  text-decoration: none;
+  color: black;
+}
+
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  background: #FFF;
 }
 
 
@@ -34,6 +47,7 @@ nav{
 }
 
 /* MAIN */
+/* main js */
 .image_js_div{
   display: flex;
   justify-content: center;
@@ -45,9 +59,47 @@ nav{
 
 .image_js{
   width: 38%;
+  transition: 0.05s transform linear;
+  will-change: transform;
 }
 
+/* end js */
+/* first view */
+.list_brosse{
+  list-style-type: "- ";
+}
+.texte_intro{
+  text-align: center;
+}
+.div_bloc_intro{
+  height: 100vh;
+  position: absolute;
+  top:20;
+}
+.bloc_intro_r{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 80px 20px;
+}
 
+.bloc_intro_l{
+  display: flex;
+  position: absolute;
+  left: 700px;
+  top: 200px;
+  flex-direction: column;
+  width: 40vw;
+  padding: 20px 80px;
+}
+.list_option{
+  list-style: none;
+}
+
+/* image view end */
+.image_main{
+  max-width: 200px;
+}
 .article{
   display: flex;
   width: 100%;
@@ -71,13 +123,21 @@ nav{
 
 .article_description{
   width: 400px;
+  font-size: 15px;
+
 }
 
 .article_description_two{
   width: 400px;
+  font-size: 15px;
 }
+/* footer */
 
 .foo{
-  background: rgba(255, 253, 253, 0.8);
-
+  background: #FFF;
+  margin: 0 auto;
+  height: 70px;
+}
+.image_foo{
+  width: 50px;
 }
