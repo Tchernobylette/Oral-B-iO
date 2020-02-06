@@ -8,9 +8,46 @@ body{
   min-height: 100vh;
 }
 
-img{
-  max-width: 200px;
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 10vw;
+
 }
+.list li{
+  margin: 0 20px;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo_image{
+  display: flex;
+  max-width: 80px;
+  margin-left: 8vw;
+}
+
+/* MAIN */
+.image_js_div{
+  display: flex;
+  justify-content: center;
+
+}
+.image_scroll{
+  transform: scale(0.5);
+}
+
+.image_js{
+  width: 38%;
+}
+
+
 .article{
   display: flex;
   width: 100%;
@@ -42,9 +79,5 @@ img{
 
 .foo{
   background: rgba(255, 253, 253, 0.8);
-
-}
-
-@media screen and (max-width: 1100px){
 
 }
